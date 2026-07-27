@@ -1,8 +1,14 @@
 aid: iconbuild
 name: Iconbuild
-description: 'Iconbuild is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ICON Technology, Inc. (iconbuild.com) is an Austin, Texas construction
+  technologies company using large-scale robotics, advanced materials, and software to
+  build homes and structures. ICON develops the Vulcan and Phoenix 3D-printing robots,
+  proprietary Lavacrete and CarbonX building materials, and design/build tooling (including
+  its CODEX architectural catalog and ICON Prime), and has printed communities across the
+  US as well as researched off-world construction with NASA (Project Olympus). Backed by
+  Norwest Venture Partners. This is a physical construction / building-technology company;
+  as of this pass it publishes no public developer API, SDK, OpenAPI, or /.well-known
+  discovery surface, so no API artifacts were harvested.'
 url: https://raw.githubusercontent.com/api-evangelist/iconbuild/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/696aa403bbe74c1adbd1ed11/698e4e7baf389744712cd730_ab684b7971274408c043314790525906_icon-opengraph.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Construction
+- Construction Technology
+- 3D Printing
+- Building Technology
+- Robotics
+- Homebuilding
+- Advanced Materials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://iconbuild.com
+  url: https://www.iconbuild.com
+- type: Support
+  url: https://www.iconbuild.com/contact
+- type: Blog
+  url: https://www.iconbuild.com/newsroom
+- type: TermsOfService
+  url: https://www.iconbuild.com/legal
+- type: PrivacyPolicy
+  url: https://www.iconbuild.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
