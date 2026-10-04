@@ -52,6 +52,8 @@ tags:
 - Robotics
 - Homebuilding
 - Advanced Materials
+- Real Estate
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -69,6 +71,8 @@ common:
   url: https://www.iconbuild.com/legal
 - type: PrivacyPolicy
   url: https://www.iconbuild.com/privacy-policy
+- type: Website
+  url: https://iconbuild.com
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
